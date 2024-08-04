@@ -1,0 +1,183 @@
+{
+    "defaults":{
+        "colours":
+        {
+            "normal_bg": "rgba(0, 0, 0, 0)",
+            "hovered_bg": "rgba(233, 0,0, 150)",
+            "disabled_bg": "rgb(200, 150, 60)",
+            "selected_bg": "rgba(20, 50, 89, 225)",
+            "dark_bg": "rgb(36, 36, 36)",
+            "normal_text": "rgba(227, 178, 2, 255)",
+            "hovered_text": "#FFFFFF",
+            "selected_text": "purple",
+            "disabled_text": "RGB(40, 70, 90)",
+            "link_text": "HSV(50deg, 30%, 40%)",
+            "link_hover": "cmy(50%, 30%, 0.7)",
+            "link_selected": "teal",
+            "text_shadow": "skyblue",
+            "normal_border": "gold"
+        }
+    },
+    "label":{
+        "font":
+        {
+            "name": "aliee13",
+            "size": "78",
+            "regular_path": "./assets/fonts/aliee13.ttf"
+        }
+    },
+    "button":{
+        "colours":
+        {
+            "normal_bg": "rgba(0, 0, 0, 0)",
+            "hovered_bg": "rgba(233, 0, 0, 0)",
+            "disabled_bg": "#25292e",
+            "selected_bg": "rgba(227, 178, 2, 180)",
+            "active_bg": "rgba(240,0,0, 240)",
+            "normal_text": "#FFF",
+            "hovered_text": "rgba(227, 178, 2, 255)",
+            "selected_text": "#FFFFFF",
+            "disabled_text": "#6d736f",
+            "active_text": "#6d736f",
+            "normal_border": "rgba(0,0,0,0)",
+            "hovered_border": "rgba(227, 178, 2, 255)",
+            "disabled_border": "#808080",
+            "selected_border": "#8080B0",
+            "active_border": "#8080B0",
+            "normal_text_shadow": "#10101070",
+            "hovered_text_shadow": "#10101070",
+            "disabled_text_shadow": "#10101070",
+            "selected_text_shadow": "#10101070",
+            "active_text_shadow": "#10101070"
+        },
+        "font":
+        {
+            "name": "aliee13",
+            "size": "32",
+            "regular_path": "./assets/fonts/aliee13.ttf"
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "5",
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": 50,
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "center",
+            "text_vert_alignment": "center",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "padding": "10, 20",
+            "state_transitions":
+            {
+                "normal_hovered": "0.25",
+                "hovered_normal": "0.25"
+            }
+        }
+    },
+
+    "text_entry_line":{
+        "colours":
+        {
+            "dark_bg": "#25292e",
+            "selected_bg": "#ffcc66",
+            "normal_text": "gold",
+            "selected_text": "#FFFFFF",
+            "normal_border": "#FFFFFF",
+            "selected_border":"gold",
+            "hovered_border": "gold",
+            "active_border":"gold"
+        },
+        "font":{
+            "name": "mainFont",
+            "size": "18",
+            "regular_path": "./assets/fonts/mainFont.otf"
+        },
+        "misc":{
+            "text_horiz_alignment": "center",
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": 5,
+            "border_width": "1",
+            "shadow_width": "2",
+            "padding": "6,4"
+        }
+    },
+
+    "#versionlabel":{
+        "font":
+        {
+            "name": "mainFont",
+            "size": "12",
+            "regular_path": "./assets/fonts/mainFont.otf"
+        }
+    },
+
+    "#subtitlelabel":{
+        "colours":
+        {
+            "normal_text": "#FFF"
+        },
+        "font":
+        {
+            "name": "aliee13",
+            "size": "48",
+            "regular_path": "./assets/fonts/aliee13.ttf"
+        }
+    },
+    "#gameoverlabel":{
+        "colours":
+        {
+            "normal_text": "rgb(255, 0, 0)"
+        },
+        "font":
+        {
+            "name": "aliee13",
+            "size": "56",
+            "regular_path": "./assets/fonts/aliee13.ttf"
+        }
+    },
+    "#newhighscorelabel":{
+        "colours":
+        {
+            "normal_text": "rgba(0, 200, 0, 255)"
+        },
+        "font":
+        {
+            "name": "aliee13",
+            "size": "48",
+            "regular_path": "./assets/fonts/aliee13.ttf"
+        }
+    },
+    "#scoreitemlabel":{
+        "font":{
+            "name": "mainFont",
+            "size": "18",
+            "regular_path": "./assets/fonts/mainFont.otf"
+        },
+        "misc":{
+            "text_horiz_alignment": "center"
+        }
+    },
+    "#gameinfolabel-l":{
+        "font":{
+            "name": "mainFont",
+            "size": "18",
+            "regular_path": "./assets/fonts/mainFont.otf"
+        },
+        "misc":{
+            "text_horiz_alignment": "right"
+        }
+    },
+    "#gameinfolabel-r":{
+        "font":{
+            "name": "mainFont",
+            "size": "18",
+            "regular_path": "./assets/fonts/mainFont.otf"
+        },
+        "misc":{
+            "text_horiz_alignment": "left"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.pytest_cache
+src/__pycache__
+tests/__pycache__
+dist
+build
+env-breakOut
+test.py
+config
+main.spec
+package
